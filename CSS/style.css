@@ -3,9 +3,31 @@
     padding: 0;
 }
 
-body {
-    background-image: url("../IllustrationsLogo/Allpages/arrière_plan.png");
+@font-face {
+    font-family: beyeno;
+    src: url("../police/BEYNO.ttf");
 }
+
+@font-face {
+    font-family: Panthera;
+    src: url("../police/PantheraRegular-MVZ9J.ttf");
+}
+
+@font-face {
+    font-family: Cantarell_Regular;
+    src: url("../police/Cantarell-Regular.ttf");
+}
+
+body {
+    background-image: url("../IllustrationsLogo/Allpages/arrière_plan.png"), radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+    background-position: left top, left 30%;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    overflow-x: hidden;
+}
+
+
+/* ici commence le header */
 
 a {
     text-decoration: none;
@@ -22,3 +44,78 @@ header .container {
     justify-content: space-between;
     width: 80%;
 }
+
+header .container .grp-navigation a {
+    font-family: "beyeno", sans-serif;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.asideleft {
+    position: absolute;
+    top: 0;
+    left: 4%;
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+    padding-top: 200px;
+}
+
+.asideleft .iconesAssideLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 4px;
+}
+
+
+/* fin header */
+
+
+/* section .introduction */
+
+.blackpanther {
+    margin-top: 2%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.blackpanther .introduction {
+    padding-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 100vh;
+}
+
+.blackpanther .introduction h1 {
+    font-family: Panthera;
+    display: block;
+    font-size: 52px;
+    color: #DF99F2;
+}
+
+.blackpanther .introduction h2 {
+    font-family: "beyeno", sans-serif;
+    font-size: 32px;
+    color: #DF99F2;
+    line-height: 50px;
+}
+
+.blackpanther .introduction h2 {
+    font-family: "beyeno", sans-serif;
+    font-size: 32px;
+    color: #DF99F2;
+    line-height: 50px;
+}
+
+.blackpanther .introduction p {
+    font-family: Cantarell_Regular;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/* section fin inrouduction */
