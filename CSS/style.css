@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../IllustrationsLogo/Allpages/arrière_plan.png");
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-top: 15px;
+}
+
+header .container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
