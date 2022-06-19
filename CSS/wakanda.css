@@ -6,6 +6,14 @@
     background-repeat: no-repeat;
 }
 
+.sl {
+    width: 27px;
+}
+
+.marvl {
+    width: 70px;
+}
+
 .cont {
     padding-top: 15%;
     padding-left: 10%;
@@ -87,4 +95,8 @@
 
 footer {
     margin-top: 100px;
+}
+
+.dess {
+    display: none;
 }
