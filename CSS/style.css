@@ -91,7 +91,7 @@ header .container .grp-navigation a:hover {
 
 .blackpanther .introduction {
     padding-top: 169px;
-    margin-left: 175px;
+    margin-left: 100px;
     margin-right: 120px;
     height: 100vh;
 }
@@ -399,7 +399,7 @@ footer {
     font-family: cantarell;
     color: white;
     display: flex;
-    padding-top: 100px;
+    padding-top: 56px;
 }
 
 .foot_sayna-contsayna {
@@ -463,6 +463,14 @@ footer {
 .nav-footer h3 a {
     color: white;
     font-size: 16px;
+}
+
+.nav-footer h3 a:hover {
+    text-decoration: underline;
+}
+
+.nav-footer h2 a:hover {
+    text-decoration: underline;
 }
 
 .nav-footer h2 a {
