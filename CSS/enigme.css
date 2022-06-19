@@ -141,101 +141,12 @@
     padding: 15px;
     outline: none;
     border-radius: 38px;
+    border: none;
     background-color: #9E91B7;
     margin: 40px 80px;
     font-family: beyeno;
 }
 
-footer {
-    width: 100%;
-    height: 50vh;
-    background-image: url("../IllustrationsLogo/Allpages/footer1.png"), linear-gradient(180deg, #3D2DA6 0%, #021740 90.43%);
-    background-position: 15% center, top left;
-    background-size: 16%, cover;
-    background-repeat: no-repeat;
-}
-
-.containeur-footer {
-    font-family: cantarell;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-}
-
-.foot_sayna {
-    width: 50%;
-}
-
-.foot {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 40px;
-}
-
-.contenu {
-    width: 350px;
-}
-
-.contenu h1 {
-    padding-bottom: 20px;
-    font-size: 24px;
-}
-
-.contenu p {
-    padding-bottom: 10px;
-}
-
-.grp-btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 220px;
-}
-
-.grp-btn .footfacebook {
-    background-color: #F2CEF2;
-    border-radius: 50px;
-    width: 35px;
-    height: 35px;
-}
-
-.grp-btn .loginstagram {
-    background-color: #DF99F2;
-    border-radius: 50px;
-    width: 35px;
-    height: 35px;
-}
-
-.grp-btn .foottwitter {
-    background-color: #3D2DA6;
-    border-radius: 50px;
-    width: 35px;
-    height: 35px;
-}
-
-.grp-btn .logtk {
-    background-color: #07338C;
-    border-radius: 50px;
-    width: 35px;
-    height: 35px;
-}
-
-.footfacebook img,
-.loginstagram img,
-.foottwitter img,
-.logtk img {
-    margin: 7px 7px;
-}
-
-.saynalogo {
-    margin: 20% 31%;
-}
-
-.droit {
-    width: 50%;
-    position: relative;
-    top: -100px;
-    left: 50%;
-    color: white;
+.btn-envoyer:hover {
+    box-shadow: 0px 0px 10px hsl(300, 20%, 88%);
 }
